@@ -22,6 +22,14 @@ class DataSource
   def get_keyboard_price(id)
     68
   end
+
+  def get_display_info(id)
+    "#{id} display info"
+  end
+
+  def get_display_price(id)
+    168
+  end
 end
 
 
